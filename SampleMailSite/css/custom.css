@@ -1,0 +1,323 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/*Main Header starts*/
+.backColor{
+    /* height: 85em; */
+    background: #F25222;
+}
+#mainHeader {
+    /* width: 100%; */
+    /* background: #F25222; */
+    /* height: 111px; */
+    background-image: url(https://www.pochtap.az/Images/map.png);
+    background-repeat: no-repeat;
+}
+
+#mainHeader .col-md-5 {
+    padding: 25px 4em;
+}
+
+#mainHeader .col-md-5 h1 {
+    margin-top: 12px; 
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+#mainHeader .col-md-5 span {
+    width: 30px;
+    font-size: 1.3em;
+    /* margin-left: 18em; */
+    color: white;
+    padding: 20px;
+}
+
+#mainHeader .col-md-5 span i {
+    margin-top: 15px;
+    margin-left: -8px;
+}
+
+#mainHeader .col-md-7 {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#mainHeader .col-md-7 h1 {
+    width: 40px;
+    /* margin-right: 2.8em; */
+    margin-top: 10px;
+    color: snow;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeader .col-md-7 h2 {
+    width: 40px;
+    /* margin-right: 4em; */
+    margin-top: 3px;
+    color: snow;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeader .col-md-7 h3 {
+    width: 117px;
+    /* margin-right: 50px; */
+    margin-top: 9px;
+    color: snow;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mainHeader .col-md-7 h4 {
+    width: 40px;
+    /* margin-right: 4em; */
+    margin-top: 3px;
+    margin-left: 45px;
+    color: snow;
+    font-size: 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#mainHeader .menu>button {
+    width: 179px;
+    height: 51px;
+    margin-left: -16px;
+    border-radius: 10px;
+    border: 1px solid #fbc222;
+    background-color: #fbc222;
+}
+
+#mainHeader .menu :hover {
+    background-color: lawngreen;
+}
+
+#mainHeader .menu p {
+    font-weight: bolder;
+    margin-top: -12px;
+    font-size: 14px;
+}
+
+#mainHeader .menu span>i {
+    vertical-align: middle;
+    position: relative;
+    top: 7px;
+    right: 77px;
+    font-size: 15px;
+}
+
+
+/*Header starts*/
+
+#header {
+    width: 100%;
+    height: 700px;
+    background: #F25222;
+    background-image: url(https://www.pochtap.az/Images/map.png);
+    background-repeat: no-repeat;
+}
+
+#header .col-md-7 {
+    padding-left: 5em;
+    padding-top: 5em;
+}
+
+#header .col-md-7 h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#header .col-md-7 p {
+    margin-bottom: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#header .col-md-7 p span>i {
+    color: orange;
+}
+
+#header .search {
+    width: 351px;
+    height: 303px;;
+    background-color: white;
+    padding: 30px 30px;
+    margin-top: 87px;   
+    margin-left: 65px;
+}
+
+#header .search h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#header .search h2 {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#header .search h2>span {
+    color: #FBC222;
+    font-size: 15px;
+}
+
+#header .search select {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+}
+
+#header .search button {
+    width: 282px;
+    height: 68px;
+    padding: 20px;
+    background-color: #F0B204;
+    border: 1px solid #F0B204;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#header .search>button:hover {
+    background-color: lawngreen;
+}
+
+
+/*Content stars*/
+
+#content {
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#content h1 {
+    margin-top: 0;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 45px 0;
+}
+
+#content .box {
+    width: 260px;
+    display: -webkit-inline-box;
+    box-decoration-break: clone;
+    padding: 20px 30px;
+    margin: 20px;
+    margin-left: 87px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px darkslategray;
+    margin-right: 10px;
+}
+
+#content .box>img {
+    margin-top: 44px;
+    width: 46px;
+    height: 31px;
+}
+
+#content .box>p {
+    width: 200px;
+}
+
+#content .box :nth-child(2) {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin: 40px 10px 20px 10px;
+}
+
+#content .btn {
+    display: inherit;
+    margin: 0 auto;
+}
+
+#content .btn button {
+    width: 168px;
+    padding: 15px;
+    margin: 30px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #F5F5F5;
+    border: 1px solid #F25222;
+    border-radius: 5px;
+}
+
+#content .btn :hover {
+    background-color: #f25222;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/*Footer Starts*/
+
+#footer {
+    width: 100%;
+    margin-top: 60px;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 100px 0
+}
+
+#footer .info img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+#footer .info p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #1a1919;
+}
+
+#footer :last-child :nth-child(2) {
+    margin-top: -10px
+}
+
+
+/*Contact starts*/
+
+#contact {
+    width: 100%;
+    padding: 4em 0px;
+    border-top: 1px solid gray;
+}
+
+#contact .col3>img {
+    margin-left: 10em;
+}
+
+#contact .col-md-5 ul {
+    margin-top: 25px;
+    margin-left: 20em;
+}
+
+#contact .col-md-5 ul li {
+    margin-left: 10px;
+    display: inline;
+    margin-right: 20px;
+}
+
+#contact .col-md-5 ul li span {
+    margin-right: 10px;
+    color: darkorange;
+}
